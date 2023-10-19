@@ -16,6 +16,8 @@ The model used for the progam was illustrated by the University of Porto GALENO 
 The original model was described by Schneider and colleauges in 1998:
 Thomas W. Schnider, Charles F. Minto, Pedro L. Gambús, Corina Andresen, David B. Goodale, Steven L. Shafer and Elizabeth J. Youngs, ”The Influence of Method of Administration and Covariates on the Pharmacokinetics of Propofol in Adult Volunteers", Anesthesiology, 1998, 88, 1170-82. 
 
+This model uses plasma concentration as a target and goal. This is different to the Marsh model which uses effect site concentration as a goal. Both effect and plasma concentration can be calculated from both models but they are not accurate. When choosing a model for pd/pd be mindful of the goal and monitoring capabilities. There have been reports of awareness when using TCI pumps and the incorrect model. 
+
 The equations use linear algebra, calculus, and ordinary differential equations. There is some simplification and substiution involved, and the derivation is cited. Also note that dot notation above a variable is derivative of the variable with respect to time (dx/dt)
 
 ![pdmodel]](pkmodel.png)
