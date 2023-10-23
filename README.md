@@ -20,13 +20,13 @@ This model uses plasma concentration as a target and goal. This is different to 
 
 The equations use linear algebra, calculus, and ordinary differential equations. There is some simplification and substiution involved, and the derivation is cited. Also note that dot notation above a variable is derivative of the variable with respect to time (dx/dt)
 
-![pdmodel]](pkmodel.png)
+![pdmodel](pkmodel.png)
 
 ![baseequations](equations.png)
 
 ![statespace](statespaceequations.png)
 
-![final](finalequation.png)
+![final](finalequations.png)
 
 ## Python
 The code involves a  main function that is reponsible for handling the variables and the graph. Assist functions for the lean body mass based on the Jame's Forumla are imported. This equation is based on gender. 
